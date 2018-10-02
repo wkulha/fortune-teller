@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="text-center page-header">
+      <h3>Fortune Teller's Room</h3>
+    </div>
+    <div class="container">
+      <div id="the_quiz" class="panel panel-info">
+        <div class="panel-body">
+          <form id="quiz">
+            <div class="form-group">
+              <p>Tell me which of these inauspicious events has happened to you in the past two months:</p>
+              <input type="checkbox" name="bad_luck" value="1"> A black cat crossed my path.<br>
+              <input type="checkbox" name="bad_luck" value="1"> I walked under a ladder.<br>
+              <input type="checkbox" name="bad_luck" value="1"> I split a salt shaker.<br>
+              <input type="checkbox" name="bad_luck" value="1"> I saw my own doppelganger.<br>
+              <input type="checkbox" name="bad_luck" value="1"> I broke a mirror. <br>
+              <input type="checkbox" name="bad_luck" value="1"> I didn't respond to a Facebook chain message. <br>
+              <input type="checkbox" name="bad_luck" value="1"> I put my shoes on the table.<br>
+              <input type="checkbox" name="bad_luck" value="1"> I opened an umbrella inside. <br>
+              <input type="checkbox" name="bad_luck" value="1"> A bird flew into my window. <br>
+              <input type="checkbox" name="bad_luck" value="1"> I tripped over something.<br>
+            </div>
+            <div class="form-group">
+              <p>Now tell me which of these auspicious events you've experienced in the past two months:</p>
+              <input type="checkbox" name="good_luck" value="1"> Bats have nested in my house.<br>
+              <input type="checkbox" name="good_luck" value="1"> I've seen a rainbow.<br>
+              <input type="checkbox" name="good_luck" value="1"> I've seen a cricket. <br>
+              <input type="checkbox" name="good_luck" value="1"> I found a four-leaf clover.<br>
+              <input type="checkbox" name="good_luck" value="1"> I found a heads-up coin on the ground and picked it up.<br>
+              <input type="checkbox" name="good_luck" value="1"> I've kept seeing the number 8.<br>
+              <input type="checkbox" name="good_luck" value="1"> My ears have been itchy.<br>
+              <input type="checkbox" name="good_luck" value="1"> A bird has pooped on my head.<br>
+              <input type="checkbox" name="good_luck" value="1"> My left hand has gone pins and needles.<br>
+              <input type="checkbox" name="good_luck" value="1"> I've realized I put an article of clothing on backwards and left it that way.<br>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">What's my fortune?</button>
+            </div>
+          </div>
+        </div>
+        <div class="well" id="good_fortune">
+          
+        </div>
+        <div class="well" id="perfect_fortune">
+
+        </div>
+        <div class="well" id="bad_fortune">
+
+        </div>
