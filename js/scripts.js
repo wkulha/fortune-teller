@@ -19,7 +19,7 @@ function gatherAndCompare() {
   });
   if (badLuckTotal.length >= 5 && goodLuckTotal.length <= 2) {
     hideShowDarken('#perfect_fortune');
-  } else if (badLuckTotal.length > goodLuckTotal.length) {
+  } else if (badLuckTotal.length > goodLuckTotal.length || badLuckTotal.length === goodLuckTotal.length) {
     hideShowDarken('#good_fortune');
   } else if (goodLuckTotal.length > badLuckTotal.length) {
     hideShowDarken('#bad_fortune');
